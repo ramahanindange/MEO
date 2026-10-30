@@ -1,0 +1,113 @@
+{
+  "organisation": {
+    "name": "Maritime Empowerment Organization",
+    "short": "MEO",
+    "tagline": "Protecting Our Oceans, Empowering Our Communities",
+    "logo": "assets/images/logo.jpg",
+    "website": "https://www.meo.or.tz",
+    "email": "info@meo.or.tz",
+    "phone": "+255 752 212 155",
+    "address": ["3rd Floor, Life Housing Building", "Opp. Sukari House, P.O. Box 10610", "Postal Code 11104, Dar es Salaam, Tanzania"],
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Life+Housing+Building+Sukari+House+Dar+es+Salaam",
+    "social": [
+      { "name": "Instagram", "url": "https://www.instagram.com/maritime_empowerment_org" },
+      { "name": "LinkedIn", "url": "https://www.linkedin.com/company/maritime-empowerment-organization/" },
+      { "name": "WhatsApp", "url": "https://wa.me/qr/ISLNHWGMPRROA1" }
+    ]
+  },
+
+  "hero": {
+    "image": "assets/images/hero-team.jpg",
+    "highlight": "Empowering Tanzania's blue economy",
+    "text": "358 women trained in the seaweed value chain, 245 Swahili Blue Economy books in 13 schools, from Pemba to Lake Nyasa.",
+    "button": { "label": "See our impact", "href": "#impact" }
+  },
+
+  "about": {
+    "title": "Protecting Our Oceans, Empowering Our Communities",
+    "paragraphs": [
+      "Tanzania's coasts, lakes and ports support millions of livelihoods, yet seafarers, fishers and coastal women and youth are too often left out of the <strong>blue economy</strong>.",
+      "<strong>Maritime Empowerment Organization (MEO)</strong> works to change that. We strengthen the skills, financial inclusion, safety and leadership of seafarers and coastal communities, through training, partnerships, advocacy and applied innovation."
+    ],
+    "vision": "A resilient, inclusive blue economy where seafarers, coastal communities and maritime institutions thrive through decent work, innovation, safety and ocean stewardship.",
+    "mission": "To advance equitable blue economy development by strengthening the skills, financial inclusion, safety and leadership of seafarers and coastal communities, through evidence-based work on sustainable fisheries, ocean conservation and climate-resilient livelihoods.",
+    "image": "assets/images/exhibition.jpg",
+    "imageAlt": "MEO presenting at a maritime exhibition"
+  },
+
+  "impact": {
+    "title": "Impact at Scale",
+    "background": "assets/images/team-beach.jpg",
+    "stats": [
+      { "value": 358, "suffix": "", "label": "Women & youth trained (WE4D, Pemba)" },
+      { "value": 245, "suffix": "", "label": "Swahili Blue Economy books distributed" },
+      { "value": 13, "suffix": "", "label": "Secondary schools reached, Njombe" },
+      { "value": 6, "suffix": "", "label": "Programme areas" }
+    ]
+  },
+
+  "feature": {
+    "title": "WE4D: Women in the Green Transformation",
+    "text": "In November 2024, with <strong>COFAD</strong> and <strong>GIZ</strong>, MEO implemented Women's Employment for Africa's Green Transformation in Pemba, Zanzibar, reaching <strong>358 participants</strong> across the seaweed value chain.",
+    "image": "assets/images/we4d-boat.jpg",
+    "imageAlt": "WE4D participants on a boat in life jackets",
+    "button": { "label": "Read Here", "href": "https://meo.or.tz/news-publications" }
+  },
+
+  "programmes": [
+    { "id": "human-capital", "title": "Blue Economy Human Capital", "text": "Training, capacity building and skills development for maritime professionals and coastal communities.", "image": "assets/images/china-training.jpg" },
+    { "id": "mentorship", "title": "Career Mentorship & Education", "text": "Career pathways, youth engagement and advocacy for maritime education in Kiswahili.", "image": "assets/images/students-books.jpg" },
+    { "id": "ocean-health", "title": "Ocean Health & Climate Resilience", "text": "Environmental stewardship, marine conservation and climate-adaptive programming.", "image": "assets/images/lake-nyasa-community.jpg" },
+    { "id": "financial-inclusion", "title": "Financial Inclusion", "text": "Financial literacy and inclusion services for maritime and fishing communities.", "image": "assets/images/seafood-event.jpg" },
+    { "id": "fisheries", "title": "Sustainable Fisheries & Livelihoods", "text": "Value-chain support, mariculture and coastal economic empowerment.", "image": "assets/images/we4d-boat.jpg" },
+    { "id": "research", "title": "Research & Consultancy", "text": "Technical assistance, data-driven insights and systems strengthening.", "image": "assets/images/students-materials.jpg" }
+  ],
+
+  "news": [
+    { "date": "2025-08-01", "tag": "News", "title": "Outreach Teaching Program on Lake Nyasa", "text": "MEO engaged government offices and 13 secondary schools in Njombe Region and distributed 245 Swahili Blue Economy books.", "image": "assets/images/lake-nyasa-community.jpg", "url": "https://meo.or.tz/news-publications" },
+    { "date": "2024-11-01", "tag": "News", "title": "WE4D Initiative in Pemba, Zanzibar", "text": "With COFAD and GIZ, MEO reached 358 participants in the seaweed value chain.", "image": "assets/images/we4d-boat.jpg", "url": "https://meo.or.tz/news-publications" },
+    { "date": "2024-09-01", "tag": "News", "title": "Kilwa Masoko Fishing Port Monitoring", "text": "Technical site visit and input during construction of the Kilwa Masoko Fishing Port by China Harbor Engineering Co.", "image": "assets/images/seafood-event.jpg", "url": "https://meo.or.tz/news-publications" },
+    { "date": "2024-06-08", "tag": "News", "title": "Maritime Education in Our National Language", "text": "MEO joined the World Ocean Day beach marathon, clean-up and education event with Machava Jogging Club.", "image": "assets/images/team-beach.jpg", "url": "https://meo.or.tz/news-publications" },
+    { "date": "2023-09-01", "tag": "News", "title": "Marine Economy Training in China", "text": "A 14-day training on marine economic development in Zhejiang Province, attended by the Executive Director and three technical members online.", "image": "assets/images/china-training.jpg", "url": "https://meo.or.tz/news-publications" },
+    { "date": "", "tag": "Publications", "title": "News, Reports & Publications", "text": "Read MEO's latest updates, programme reports and Blue Economy publications.", "image": "assets/images/exhibition.jpg", "url": "https://meo.or.tz/news-publications" }
+  ],
+
+  "team": [
+    { "name": "Eliyusta Filikunjombe", "role": "Executive Director & Founder", "bio": "Maritime researcher, Korea Maritime and Ocean University", "photo": "assets/images/team/eliyusta.webp" },
+    { "name": "Laulence Nyenye", "role": "Executive Secretary", "bio": "Shipping economics, logistics and port operations", "photo": "assets/images/team/laulence.webp" },
+    { "name": "Lucia Ngonyani", "role": "Head of Finance", "bio": "Accountant, digital banking and cash management", "photo": "assets/images/team/lucia.webp" },
+    { "name": "Zahra Mazoya", "role": "Maritime Development & Advocacy", "bio": "Aquaculture and aquatic sciences", "photo": "assets/images/team/zahra.webp" },
+    { "name": "Bertha Aron", "role": "Program Lead", "bio": "Shipping, logistics and fisheries management", "photo": "assets/images/team/bertha.webp" },
+    { "name": "Elizabeth Hizza", "role": "Head of Logistics", "bio": "Transport: TAA, TASAC, TPC, Precision Air", "photo": "assets/images/team/elizabeth.webp" },
+    { "name": "Sharifa Dayar", "role": "Head of Information & Tech", "bio": "ICT and cybersecurity specialist", "photo": "assets/images/team/sharifa.webp" },
+    { "name": "Yusuph Muya", "role": "Head of Environment Affairs", "bio": "Marine science, World Maritime University", "photo": "assets/images/team/yusuph.webp" },
+    { "name": "Flora Nyefwe", "role": "Head of M&E", "bio": "Public health, occupational health and safety", "photo": "assets/images/team/flora.webp" },
+    { "name": "Susan Nelima", "role": "Legal Counsel", "bio": "Corporate and commercial law, 15+ years", "photo": "assets/images/team/susan.webp" },
+    { "name": "CPA Emmanuel Lugome", "role": "Internal Auditor", "bio": "Internal Audit Unit", "photo": "assets/images/team/emmanuel.webp" }
+  ],
+
+  "partners": [
+    { "name": "GIZ", "logo": "assets/images/partners/giz.webp" },
+    { "name": "COFAD", "logo": "assets/images/partners/cofad.webp" },
+    { "name": "TASAC", "logo": "assets/images/partners/tasac.webp" },
+    { "name": "DMTA", "logo": "assets/images/partners/dmta.webp" },
+    { "name": "MIT", "logo": "assets/images/partners/mit.webp" },
+    { "name": "Innovate Maritime Africa", "logo": "assets/images/partners/innovate.webp" },
+    { "name": "Maritime partner", "logo": "assets/images/partners/maritime.webp" },
+    { "name": "GMS Fisheries Group", "logo": "assets/images/partners/gms.webp" },
+    { "name": "Taifa", "logo": "assets/images/partners/taifa.webp" }
+  ],
+
+  "donate": {
+    "title": "The blue economy can't wait, and neither can we.",
+    "text": "358 women trained, 245 books in 13 schools. None of it happens without people like you.",
+    "currency": "TZS",
+    "amounts": [50000, 100000, 250000],
+    "bank": {
+      "Bank": "National Bank of Commerce (NBC)",
+      "Account name": "Maritime Empowerment Organization",
+      "Account number": "011172000683",
+      "SWIFT / BIC": "NLCBTZTX"
+    }
+  }
+}

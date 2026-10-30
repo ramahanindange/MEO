@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Maritime Empowerment Organization (MEO) | Blue Economy, Tanzania</title>
+<meta name="description" content="Maritime Empowerment Organization (MEO) advances an inclusive, resilient blue economy in Tanzania through maritime skills, safety, livelihoods, financial inclusion and ocean stewardship.">
+<meta name="theme-color" content="#27587c">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Maritime Empowerment Organization (MEO)">
+<meta property="og:description" content="Protecting Our Oceans, Empowering Our Communities.">
+<meta property="og:image" content="assets/images/hero-team.jpg">
+<link rel="icon" href="assets/images/logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header id="hdr">
+  <div class="container">
+    <a class="logo" href="#top"><img src="assets/images/logo.jpg" alt="Maritime Empowerment Organization logo" width="78" height="78"><span>Maritime Empowerment Organization</span></a>
+    <button class="toggle" id="toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav">☰</button>
+    <nav id="nav" aria-label="Main">
+      <ul class="menu">
+        <li><a href="#about">About Us</a>
+          <ul class="sub"><li><a href="#about">Who We Are</a></li><li><a href="#about">Vision &amp; Mission</a></li><li><a href="#team">Leadership</a></li><li><a href="https://meo.or.tz/governance-compliance">Governance &amp; Compliance</a></li></ul></li>
+        <li><a href="#programmes">Our Work</a><ul class="sub" id="navProgrammes"></ul></li>
+        <li><a href="#impact">Our Impact</a></li>
+        <li><a href="#partners">Get Involved</a>
+          <ul class="sub"><li><a href="#partners">Partnerships</a></li><li><a href="#" data-donate>Donate</a></li><li><a href="#contact">Contact</a></li></ul></li>
+        <li><a href="#news">Resources</a>
+          <ul class="sub"><li><a href="https://meo.or.tz/news-publications">News &amp; Publications</a></li><li><a href="#news">Our Activities</a></li><li><a href="#newsletter">Newsletter</a></li></ul></li>
+        <li class="donate"><a class="btn" href="#" data-donate>Donate</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="loading" id="loading"><div class="spinner" role="status" aria-label="Loading"></div></div>
+  <noscript><p class="container">Please enable JavaScript to view this website, or contact us at info@meo.or.tz.</p></noscript>
+
+  <section class="hero" id="top" hidden><div class="bgimg" data-bg="hero.image"></div>
+    <div class="container"><h1 id="heroTitle"></h1><a class="btn up" id="heroBtn"></a></div>
+  </section>
+
+  <section class="intro" id="about" hidden>
+    <div class="container grid">
+      <div class="reveal"><h2 id="aboutTitle"></h2><div id="aboutText"></div>
+        <div class="vm"><div><b>Our Vision</b><p id="vision"></p></div><div><b>Our Mission</b><p id="mission"></p></div></div>
+        <a class="btn up lg" href="#programmes">Learn more</a></div>
+      <div class="pic reveal"><img id="aboutImg" alt="" loading="lazy"></div>
+    </div>
+  </section>
+
+  <section class="scale" id="impact" hidden><div class="bgimg" data-bg="impact.background"></div>
+    <div class="container"><h3 id="impactTitle"></h3><div class="counts" id="counts"></div></div>
+  </section>
+
+  <section class="report" hidden>
+    <div class="container"><div class="rcard reveal">
+      <div class="txt"><h2 id="featTitle"></h2><p id="featText"></p><a class="btn blue" id="featBtn"></a></div>
+      <div class="img" id="featImg" role="img"></div>
+    </div></div>
+  </section>
+
+  <section class="programmes" id="programmes" hidden>
+    <div class="container"><h3 class="sec-title">Featured Programmes</h3><div class="pgrid" id="progs"></div></div>
+  </section>
+
+  <section class="news" id="news" hidden>
+    <div class="container"><h3 class="sec-title">Our News &amp; Stories</h3><div class="ngrid" id="newsGrid"></div>
+      <div class="center"><a class="btn up lg" href="https://meo.or.tz/news-publications">Read more</a></div></div>
+  </section>
+
+  <section class="team" id="team" hidden>
+    <div class="container"><h3 class="sec-title">Our Leadership</h3><div class="tgrid" id="teamGrid"></div></div>
+  </section>
+
+  <section class="partners" id="partners" hidden>
+    <div class="container"><h3 class="sec-title">Our Partners</h3><div class="lrow" id="logos"></div></div>
+  </section>
+
+  <section class="contact" id="contact" hidden>
+    <div class="container">
+      <h3 class="sec-title">Get in Touch</h3>
+      <p class="sec-sub">Partnerships, training requests, media or volunteering. Send us a message and our team will reply.</p>
+      <div class="cgrid">
+        <div class="cinfo reveal">
+          <h3>Visit or call us</h3>
+          <p>Our office is open Monday to Friday, 8:30 am to 5:00 pm.</p>
+          <dl><div><dt>Address</dt><dd id="cAddress"></dd></div><div><dt>Phone</dt><dd id="cPhone"></dd></div><div><dt>Email</dt><dd id="cEmail"></dd></div><div><dt>Map</dt><dd id="cMap"></dd></div></dl>
+        </div>
+        <form class="form reveal" id="contactForm" novalidate>
+          <h3>Send a message</h3><p class="note">Fields marked * are required.</p>
+          <div class="row">
+            <div class="fld"><label for="c_name">Full name *</label><input id="c_name" name="name" autocomplete="name" required><span class="msg"></span></div>
+            <div class="fld"><label for="c_email">Email *</label><input id="c_email" name="email" type="email" autocomplete="email" required><span class="msg"></span></div>
+          </div>
+          <div class="row">
+            <div class="fld"><label for="c_phone">Phone <small>(optional)</small></label><input id="c_phone" name="phone" type="tel" autocomplete="tel"><span class="msg"></span></div>
+            <div class="fld"><label for="c_subject">Subject</label><select id="c_subject" name="subject"><option>Partnership</option><option>Training request</option><option>Media</option><option>Volunteering</option><option>Other</option></select><span class="msg"></span></div>
+          </div>
+          <div class="fld"><label for="c_message">Message *</label><textarea id="c_message" name="message" required></textarea><span class="msg"></span></div>
+          <div class="hp" aria-hidden="true"><label>Website <input name="website" tabindex="-1" autocomplete="off"></label></div>
+          <button class="btn up lg" type="submit">Send message</button>
+          <div class="status" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="newsletter" id="newsletter" hidden>
+    <div class="container">
+      <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" aria-hidden="true"><path d="M3 6h18v12H3z"/><path d="M3 6l9 7 9-7"/></svg>
+      <h3>Subscribe to our Newsletter</h3>
+      <p>Subscribe to our email newsletter and get our updates right in your inbox.</p>
+      <form class="nform" id="newsForm" novalidate>
+        <label for="n_email" class="hp">Email address</label><input id="n_email" name="email" type="email" placeholder="Enter your email address" autocomplete="email" required>
+        <div class="hp" aria-hidden="true"><input name="website" tabindex="-1" autocomplete="off"></div>
+        <button class="btn up" type="submit">Subscribe</button>
+      </form>
+      <div class="status" id="newsStatus" role="status" aria-live="polite"></div>
+    </div>
+  </section>
+</main>
+
+<footer id="footer" hidden>
+  <div class="container">
+    <div class="social" id="social"></div>
+    <div class="fgrid">
+      <div><h4 id="fName"></h4><p id="fAddress"></p><p><a id="fPhone"></a><br><a id="fEmail"></a></p></div>
+      <div><h4>About Us</h4><ul><li><a href="#about">Who We Are</a></li><li><a href="#team">Leadership</a></li><li><a href="https://meo.or.tz/governance-compliance">Governance</a></li></ul></div>
+      <div><h4>Our Work</h4><ul><li><a href="#programmes">Programmes</a></li><li><a href="#impact">Our Impact</a></li><li><a href="#news">News &amp; Stories</a></li></ul></div>
+      <div><h4>Get Involved</h4><ul><li><a href="#partners">Partnerships</a></li><li><a href="#" data-donate>Donate</a></li><li><a href="#contact">Contact</a></li></ul></div>
+    </div>
+  </div>
+  <div class="copy">© <span id="year"></span> Maritime Empowerment Organization (MEO). All rights reserved.</div>
+</footer>
+
+<!-- donation pledge pop-up -->
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="mt">
+  <div class="mbox">
+    <button class="close" id="mclose" aria-label="Close">×</button>
+    <h3 id="mt"></h3>
+    <p id="mtext"></p>
+    <form id="pledgeForm" novalidate>
+      <div class="amts" id="amts"></div>
+      <div class="row">
+        <div class="fld"><label for="p_name">Your name *</label><input id="p_name" name="name" autocomplete="name" required><span class="msg"></span></div>
+        <div class="fld"><label for="p_phone">Phone</label><input id="p_phone" name="phone" type="tel" autocomplete="tel"><span class="msg"></span></div>
+      </div>
+      <div class="row">
+        <div class="fld"><label for="p_email">Email</label><input id="p_email" name="email" type="email" autocomplete="email"><span class="msg"></span></div>
+        <div class="fld"><label for="p_prog">Support a programme</label><select id="p_prog" name="programme"><option value="">Where it's needed most</option></select><span class="msg"></span></div>
+      </div>
+      <div class="hp" aria-hidden="true"><input name="website" tabindex="-1" autocomplete="off"></div>
+      <button class="btn yellow up" type="submit">Pledge my gift</button>
+      <div class="ref" id="pRef" role="status" aria-live="polite"></div>
+      <div class="status" role="status" aria-live="polite"></div>
+    </form>
+    <div class="bank" id="bank"><h4>Pay by bank transfer</h4></div>
+    <small>Pledge first to get a reference, then use it on your transfer so we can send an official receipt.</small>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<button class="top" id="toTop" aria-label="Back to top">↑</button>
+</body>
+</html>
