@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>MEO Admin</title>
+<link rel="icon" href="assets/images/logo.jpg">
+<link rel="stylesheet" href="css/admin.css">
+<script src="js/admin.js" defer></script>
+</head>
+<body>
+<header><img src="assets/images/logo.jpg" alt="" width="40" height="40"><b>MEO Admin</b><button id="logout" hidden>Sign out</button></header>
+<main>
+  <form id="login" class="card">
+    <h1>Staff sign-in</h1>
+    <p>Enter the admin token set on the server (MEO_ADMIN_TOKEN).</p>
+    <label for="token">Admin token</label>
+    <input id="token" type="password" autocomplete="current-password" required>
+    <button type="submit">Sign in</button>
+    <p class="err" id="loginErr" role="alert"></p>
+  </form>
+
+  <section id="dash" hidden>
+    <div class="stats" id="stats"></div>
+    <div class="tabs" role="tablist">
+      <button role="tab" data-kind="messages" aria-selected="true">Messages</button>
+      <button role="tab" data-kind="pledges" aria-selected="false">Pledges</button>
+      <button role="tab" data-kind="subscribers" aria-selected="false">Subscribers</button>
+      <span class="grow"></span>
+      <input id="filter" type="search" placeholder="Filter…" aria-label="Filter rows">
+      <button id="csv">Download CSV</button>
+      <button id="refresh">Refresh</button>
+    </div>
+    <div class="card table"><table id="tbl"><thead></thead><tbody></tbody></table><p class="empty" id="empty" hidden>No records yet.</p></div>
+  </section>
+</main>
+</body>
+</html>
